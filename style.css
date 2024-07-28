@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.new-year-container{
+    background-image:linear-gradient(90deg, rgba(0,0,1,1) 0%, rgba(148,187,195,1) 49%, rgba(0,0,0,1) 1%), url('./images/banner-img.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.new-year-content{
+    padding: 16rem 0;
+}
+.header-text{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.header-title{
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.discrount-content h1{
+    color: rgb(240, 80, 31);
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 5rem;
+}
+.discrount-content p{
+    color: rgba(230, 110, 55, 0.801);
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.discrount-content h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.new-year-image{
+    text-align: center;
+    padding-top: 2rem;
+}
+.new-year-image img{
+    border-left: 2px solid black;
+
+}
+
+
+.mid-night-container{
+    background-image: url("images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.mid-night-content{
+    padding: 8rem 8rem;
+}
+.mid-night-image{
+    padding: 4rem 5rem;
+}
+.mid-night-content h1{
+    font-size: 5rem;
+    color: white;
+}
+.mid-night-content p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    padding-top: 2rem;
+}
+.btn-party{
+    padding: 1rem 3rem;
+    color: white;
+    font-size: 1.40rem;
+    background: #e67e22;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+.time-container{
+    margin-top: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-radius: 1rem;
+}
+.time-container h2{
+    color: black;
+    font-size: 24px;
+    letter-spacing: .5px;
+    text-align: center;
+    padding-top: 0.8rem;
+}
+.time-container span{
+    color: red;
+}
+.btn-main{
+    padding-top: 2.5rem;
+}
+.btn-join{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+}
+
+
+.offer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 5rem;
+    gap:15rem;
+}
+
+.offer-time h4{
+    color: red;
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+.offer-time h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.offer-time p{
+    font-size: 20px;
+}
+
+.offer-image img{
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.offer-year h1{
+    color: rgba(240, 36, 36, 0.74);
+    padding-bottom: 17px;
+    font-size:50px;
+}
+.offer-year p{
+    max-width: 350px;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+
+
+.sales-contaier{
+    padding-bottom: 5rem;
+}
+.sales-contaier h3{
+    font-size: 24px;
+    text-align: center;
+    padding: 5rem 0 1.5rem 0;
+    color: #070211;
+}
+.sales-contaier h1{
+    font-size: 4.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.sales-contaier h1 span{
+    color: red;
+}
+.sales-contaier p{
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    color: rgba(7, 2, 17, 0.6);
+}
+.sales-images{
+    display: flex;
+    background-image: url("images/Rectangle2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+}
+.image-gift{
+    margin: 0% 0% 1% 9%;
+}
+.image-persent{
+    width: 306.84px;
+    height: 306.84px;
+    margin: 77px 180px 50px 177px;
+}
+/* Our Portfolio Section Started */
+.our-portfolio-container h4{
+    font-size: 1.5rem;
+    color: #FF0000;
+    padding-top: 8rem;
+}
+.our-portfolio-container h2{
+    font-size: 3rem;
+    color: #070211;
+    padding-top: 1rem;
+}
+.our-portfolio-container p{
+    font-size: 1.25rem;
+    color: rgba(7, 2, 17, 0.6);
+    padding: 1.35rem 0 3rem 0;
+    max-width: 60%;
+}
+.our-portfolio-content img{
+    width: 100%;
+}
+.our-portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 2rem;
+}
+
+/* Our Portfolio Section end */
