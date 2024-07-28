@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +16,7 @@
 }
 
 .new-year-container {
-    background-image: linear-gradient(90deg, rgba(0, 0, 1, 1) 0%, rgba(148, 187, 195, 1) 49%, rgba(0, 0, 0, 1) 1%), url('./images/banner-img.png');
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('./images/banner-img.png');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -27,31 +33,38 @@
     color: white;
     text-align: center;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .header-title {
     color: white;
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
+    font-weight: 700;
 }
 
 .discrount-content h1 {
-    color: rgb(240, 80, 31);
+    color: rgb(255, 0, 0);
     text-align: center;
-    font-size: 4rem;
+    font-size: 88px;
+    font-weight: 700;
     padding-top: 5rem;
 }
 
 .discrount-content p {
-    color: rgba(230, 110, 55, 0.801);
     font-size: 1rem;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1.35rem;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
 }
 
 .discrount-content h2 {
     text-align: center;
     padding-top: 10px;
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .new-year-image {
@@ -66,7 +79,7 @@
 
 
 .mid-night-container {
-    background-image: url("images/Vectorrr.png");
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,3 +331,75 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+
+
+
+
+
+
+
+
+.footer-main {
+    background: rgb(7, 2, 17);
+}
+
+.footer-container {
+    margin-top: 120px;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.contact-info {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+}
+
+.icon-1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.social-info {
+    padding-top: 100px;
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.unsubcribe-container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.unsubcribe-container h2 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unsubcribe-container button {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+}
+
+/* .social-info img{
+    gap: 1rem;
+} */
